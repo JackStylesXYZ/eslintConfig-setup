@@ -63,6 +63,6 @@ In your package.json file under the `"scripts"` section add the following lines 
     "pretest": "yarn run lint", // for pretest
     "test": "react-scripts test",
     ...
-    "lint": "eslint src"
+    "lint": "eslint src" // src is the directory eslint will lint
   },
 ```
